@@ -13,7 +13,7 @@ import:
 >     import MapKit
 
 code:
->      var mapView = MKMapView(frame: self.view.frame)
+>     var mapView = MKMapView(frame: self.view.frame)
       self.view.addSubview(mapView)
       mapView.mapType = .Standard
       //定义地图区域和中心坐
@@ -30,5 +30,6 @@ code:
       //描述
       annotation.subtitle = "天府广场"
       mapView.addAnnotation(annotation)
+
 image:
 ![1](http://1.swiftniubi.applinzi.com/swiftmapview/QQ20160421-0@2x.png)
